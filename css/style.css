@@ -1,0 +1,30 @@
+body {
+    font-family: math;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    border-radius: 8px;
+    height: 50px;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.bg-salmon {
+    background-color: salmon;
+    color: black;
+}
+
+.bg-peachpuff {
+    background-color:peachpuff;
+    color: black;
+}
