@@ -28,3 +28,50 @@ nav a {
     background-color:peachpuff;
     color: black;
 }
+
+main {
+    display: flex;
+    gap: 32px;
+}
+
+main > section {
+    flex: 1;
+    text-align: center;
+}
+
+.formula-img {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-luas {
+    background-image: url:;
+}
+
+.img-keliling {
+    background-image: url:;
+}
+
+/* Form Style */
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: skyblue;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+}
+
