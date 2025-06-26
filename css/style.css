@@ -45,14 +45,6 @@ main > section {
     background-size: cover;
 }
 
-.img-luas {
-    background-image: url:;
-}
-
-.img-keliling {
-    background-image: url:;
-}
-
 /* Form Style */
 input[type=number] {
     width: 100%;
@@ -75,3 +67,32 @@ footer {
     text-align: center;
 }
 
+@media only screen and (max-width: 480px) {
+    main{
+        flex-direction: column;
+    }
+}
+
+.output-hasil {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Style warna untuk pesan sukses */
+.output-hasil.sukses {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+/* Style warna untuk pesan error */
+.output-hasil.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
